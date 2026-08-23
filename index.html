@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- DOCTYPE avisa ao navegador que este é um documento HTML5 -->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <!-- permite acentuação correta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- faz o site se adaptar a celulares -->
+  <title>João Marcos Diniz Ferreira — Portfólio</title>
+
+  <!-- Aqui vamos ligar o nosso CSS na próxima etapa -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===================== MENU FIXO ===================== -->
+  <header>
+    <nav>
+      <a href="#sobre">Sobre mim</a>
+      <a href="#formacao">Formação</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <!-- ===================== SOBRE MIM ===================== -->
+  <section id="sobre">
+    <h2>Sobre mim</h2>
+    <p>Sou <strong>João Marcos Diniz Ferreira</strong>, estudante de Análise e
+    Desenvolvimento de Sistemas na UNINTER, com experiência profissional em
+    logística, suprimentos e rotinas administrativas construída ao longo de
+    mais de uma década.</p>
+    <p>Estou em transição de carreira para Tecnologia da Informação, buscando
+    uma oportunidade de estágio para desenvolver conhecimentos em suporte
+    técnico, análise de dados, sistemas e infraestrutura.</p>
+  </section>
+
+  <!-- ===================== FORMAÇÃO ===================== -->
+  <section id="formacao">
+    <h2>Formação</h2>
+    <ul>
+      <li><strong>Análise e Desenvolvimento de Sistemas</strong> — UNINTER (2025, em andamento)</li>
+      <li><strong>Curso Técnico em Radiologia</strong> — Escola Técnica Evolução (2018)</li>
+      <li>Idiomas: Português (avançado), Inglês (básico)</li>
+    </ul>
+  </section>
+
+  <!-- ===================== PORTFÓLIO ===================== -->
+  <section id="portfolio">
+    <h2>Portfólio</h2>
+    <p>Ainda estou no início da transição para TI, então este é meu primeiro
+    projeto prático. Confira o código no
+    <a href="#" target="_blank">meu repositório do GitHub</a>.</p>
+    <!-- Depois vamos trocar esse "#" pelo link real do seu repositório -->
+  </section>
+
+  <!-- ===================== CONTATO ===================== -->
+  <section id="contato">
+    <h2>Contato</h2>
+    <form id="form-contato">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 João Marcos Diniz Ferreira</p>
+  </footer>
+
+  <!-- Nosso JavaScript vem no final do body -->
+  <script src="script.js"></script>
+</body>
+</html>
